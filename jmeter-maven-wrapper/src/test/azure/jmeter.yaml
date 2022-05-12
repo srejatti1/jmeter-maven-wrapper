@@ -3,7 +3,7 @@ trigger: none
 pool:
 name: 'Siebel'
 demands:
-- agent.name -equals SEADVSBL19APL02 
+- agent.name -equals SEADVSBL19APL02
 variables:
   pom: $(System.DefaultWorkingDirectory)/jmeter-maven-wrapper/pom.xml
   report: $(System.DefaultWorkingDirectory)/jmeter-maven-wrapper/target/jmeter
